@@ -20,16 +20,14 @@ function gooseFilter (birds) {
   
     var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
     const filteredGeese = [];
-      
-      birds.forEach(bird => {
-          if (!geese.includes(bird)) {
-             filteredGeese.push(bird);
-          }
-      });
-  
-      return filteredGeese;
-
-}
+    
+    birds.forEach(bird => {
+      if (!geese.includes(bird)) {
+        filteredGeese.push(bird);
+      }
+    });
+    return filteredGeese;
+  }
 
 
 // Best Practice Solution 1
@@ -44,13 +42,11 @@ function gooseFilter (birds) {
 function gooseFilter (birds) {
     var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
     
-  var newArray = [];
-    for (var i =0;i<birds.length;i++) {
-    if (!geese.includes(birds[i])) {
-      newArray.push(birds[i]);
-    }
-  
-    
-    }
-  return newArray;
+    var newArray = [];
+     for (var i =0;i<birds.length;i++) {
+       if (!geese.includes(birds[i])) {
+         newArray.push(birds[i]);
+       }
+      }
+    return newArray;
   };

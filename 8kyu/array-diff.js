@@ -10,7 +10,6 @@
 //My Solution
 
 function arrayDiff(a, b) {
-    
     const bAsSet = new Set(b);
       let finalArray = [];
       for (let i = 0; i < a.length; i++) {
@@ -18,8 +17,8 @@ function arrayDiff(a, b) {
               finalArray.push(a[i]);
           }
       }
-      return finalArray;
-}
+    return finalArray;
+  }
 
 // Best Practice Solution 1
 
