@@ -1,3 +1,5 @@
+// Description
+
 // Create a function that takes a string and returns that string with the first half lowercased and the last half uppercased.
 
 // eg: foobar == fooBAR

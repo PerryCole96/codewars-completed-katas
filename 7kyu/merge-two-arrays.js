@@ -1,3 +1,5 @@
+// Description
+
 // Write a function that combines two arrays by alternatingly taking elements from each array in turn.
 
 // Examples:

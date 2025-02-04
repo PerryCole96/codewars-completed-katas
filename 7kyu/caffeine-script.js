@@ -1,3 +1,5 @@
+// Description
+
 // Complete the function which takes a non-zero integer as its argument.
 
 // If the integer is divisible by 3, return the string "Java".

@@ -1,3 +1,5 @@
+// Description
+
 // Nickname Generator
 
 // Write a function, nicknameGenerator that takes a string name as an argument and returns the first 3 or 4 letters as a nickname.
